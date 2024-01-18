@@ -1,0 +1,40 @@
+body {
+  background-color: gainsboro;
+}
+
+.wrapper {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: repeat(2, 600px);
+  justify-content: center;
+  gap: 20px;
+}
+
+.wrapper__card {
+  height: 100px;
+  width: 590px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border: 2px solid rgb(239, 152, 142);
+  padding: 10px;
+}
+
+.wrapper__card_name {
+  width: 35%;
+  text-align: center;
+  text-wrap: nowrap;
+  border-radius: 10px;
+  border: 5px dotted rosybrown;
+  padding: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: chocolate;
+}
+
+.wrapper__card_description {
+  font-size: 15px;
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #a4357d;
+}
